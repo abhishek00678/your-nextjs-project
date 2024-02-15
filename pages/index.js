@@ -4,7 +4,7 @@ import Attribut from "@/components/Attribut";
 import Description from "@/components/Description";
 import React, { useState } from "react";
 
-const index = () => {
+const Index = () => {
   const [common, setCommon] = useState("address");
 
   return (
@@ -51,4 +51,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
