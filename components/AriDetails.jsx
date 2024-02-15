@@ -145,10 +145,10 @@ const AriDetails = () => {
                 Arrival Date: {detail.arrivalDate}
               </p>
               <p className="font-semibold">
-                Arrival Date: {detail.arrivalTime}
+                Arrival Time: {detail.arrivalTime}
               </p>
               <p className="font-semibold">
-                Arrival Date: {detail.flightNumber}
+                Flight Number: {detail.flightNumber}
               </p>
               <div>
                 {/* Edit and delete buttons */}
